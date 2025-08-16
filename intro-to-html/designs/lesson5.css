@@ -1,0 +1,56 @@
+p{
+    font-family: arial;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.first{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.ffirst{
+    color: grey;
+}
+
+.second{
+    margin-top: 5px;
+    width: 560px;
+}
+
+.third{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.tthird{
+    color: rgb(0, 132, 255);
+}
+
+.fourth{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.fifth{
+    font-size: 14px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fifth:hover{
+    opacity: 0.8;
+}
+
+.fifth:active{
+    opacity: 0.5;
+}

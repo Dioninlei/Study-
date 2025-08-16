@@ -1,0 +1,546 @@
+Reminder:
+<button onclick="window.location.href='https://www.youtube.com/'" class="btn">
+    Get Started
+</button>
+
+4a.
+<style>
+    .requestnow-btn{
+        background-color: black;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+
+    .requestnow-btn:hover{
+        opacity: 0.8;
+    }
+</style>
+
+<button class="requestnow-btn">Request now</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4b. 
+<style>
+    .addtocart-btn{
+        background-color: rgb(255, 216, 20);
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+    }
+
+    .addtocart-btn:hover{
+        background-color: rgb(245, 205, 3);
+    }
+</style>
+
+<button class="addtocart-btn">Add to cart</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4c.
+<style>
+    .signup-btn{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow 0.15s;
+    }
+
+    .signup-btn:hover{
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
+<button class="signup-btn">Sign up</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4d.
+<style>
+    .getstarted-btn{
+        background-color: rgb(121, 82, 179);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 18px;
+        padding-right: 18px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s;
+    }
+
+    .getstarted-btn:hover{
+        background-color: rgb(108, 79, 157);
+    }
+
+    .download-btn{
+        background-color: white;
+        color: rgb(108, 117, 125);
+        border-color: rgb(108, 117, 125);
+        border-width: 1px;
+        border-radius: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color 0.15s,
+        color 0.15s;
+    }
+
+    .download-btn:hover{
+        background-color: rgb(108, 117, 125);
+        border-color: black;
+        color: white;
+    }
+</style>
+
+<button class="getstarted-btn">Get Started</button>
+<button class="download-btn">Download</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4e.
+<style>
+    .apply-btn{
+        background-color: rgb(10, 102, 194);
+        color: white;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 11px;
+        cursor: pointer;
+        margin-right: 4px;
+        transition: background-color 0.15s;
+    }
+
+    .apply-btn:hover{
+        background-color: rgb(9, 85, 161);
+    }
+
+    .save-btn{
+        background-color: white;
+        color: rgb(10, 102, 194);
+        border-color: rgb(10, 102, 194);
+        border-radius: 18px;
+        border-width: 1px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 19px;
+        padding-right: 19px;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 11px;
+        cursor: pointer;
+        transition: background-color 0.15s,
+            border-width 0.15s,
+            color 0.15s;
+        vertical-align: top;
+    }
+
+    .save-btn:hover{
+        background-color: rgb(208, 228, 248);
+        border-width: 2px;
+    }
+</style>
+
+<button class="apply-btn">Apply on company website</button>
+<button class="save-btn">Save</button>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3f. 
+<style>
+    .backtoamazon-btn{
+        color: rgb(0, 113, 133);
+    }
+
+    .nike-para{
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .price-para{
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+    }
+
+    .addtocart-btn{
+        background-color: rgb(255, 216, 20);
+        height: 32px;
+        width: 110px;
+        border: none;
+        border-radius: 16px;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+
+    .buynow-btn{
+        background-color: rgb(255, 164, 28);
+        height: 32px;
+        width: 110px;
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+</style>
+
+<a href="https://amazon.com/" class="backtoamazon-btn">Back to Amazon</a>
+<p class="nike-para">Nike Black Running Shoes</p>
+<p class="price-para">$39 - in stock</p>
+<p>Free delivery tomorrow.</p>
+<button class="addtocart-btn">Add to cart</button>
+<button class="buynow-btn">Buy now!</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4h.
+<style>
+    .back-btn{
+        margin-right: 7px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    
+    .next-btn{
+        margin-left: 7px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .page-number{
+        margin: 1px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+</style>
+
+<button class="back-btn">Back</button>
+<a target="_blank" href="https://google.com" class="page-number">1</a>
+<a target="_blank" href="https://google.com" class="page-number">2</a>
+<a target="_blank" href="https://google.com" class="page-number">3</a>
+<a target="_blank" href="https://google.com" class="page-number">4</a>
+<a target="_blank" href="https://google.com" class="page-number">5</a>
+<button class="next-btn">Next</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4i.
+<style>
+    .stretch-btn{
+        background-color: green;
+        color: white;
+        font-size: 18px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        border: none;
+        text-align: center;
+        transition: padding-top 1s,
+            padding-right 1s,
+            padding-bottom 1s,
+            padding-left 1s;
+        cursor: pointer;
+        vertical-align: top;
+    }
+
+    .stretch-btn:hover{
+        padding-top: 14px;
+        padding-right: 20px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+    }
+</style>
+
+<button class="stretch-btn">Stretch</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4j.
+<style>
+    .shadow-btn{
+        background-color: green;
+        color: white;
+        font-size: 18px;
+        padding-top: 7px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        border: none;
+        cursor: pointer;
+        vertical-align: top;
+        box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .shadow-btn:active{
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        transform: translate(-3px, 3px);
+    }
+</style>
+
+<button class="shadow-btn">Shadow</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4k.
+<style>
+    .stretch-btn{
+        background-color: green;
+        color: white;
+        font-size: 18px;
+        padding-top: 7px;
+        padding-right: 15px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        border: none;
+        cursor: pointer;
+        transition: padding 0.15s,
+            margin 0.15s;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .stretch-btn:hover{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+</style>
+
+<button class="stretch-btn">One</button>
+<button class="stretch-btn">Two</button>
+<button class="stretch-btn">Three</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5b.
+<style>
+    p{
+        font-family: arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .biggest-deal{
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .sale-end{
+        color: red;
+        font-size: 18px;
+        font-style: italic;
+    }
+</style>
+
+<p class="biggest-deal">
+    Biggest Deals of the Year
+</p>
+<p class="sale-end">
+    Sales end Tuesday
+</p>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5c.
+<style>
+    p{
+        font-family: verdana;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    button{
+        font-family: verdana;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .title{
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .subtitle{
+        color: grey;
+        margin-bottom: 20px;
+    }
+
+    .description{
+        width: 280px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .getstarted-btn{
+        background-color: rgb(0, 154, 0);
+        color: white;
+        border: none;
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+</style>
+
+<p class="title">
+    HTML CSS Course
+</p>
+
+<p class="subtitle">
+    Beginner to Pro
+</p>
+
+<p class="description">
+    In this course, we'll learn the skills you need to become a developer.
+</p>
+
+<button class="getstarted-btn">
+    Get Started
+</button>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5d.
+<style>
+    p {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .subtitle {
+      margin-bottom: 20px;
+    }
+  
+    .link {
+      color: rgb(58, 108, 199);
+    }
+
+    .link:hover{
+        opacity: 0.8;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+  </style>
+  
+  <p class="title">
+    Shopping for your business?
+  </p>
+  
+  <p class="subtitle">
+    See how Apple at Work can help.
+  </p>
+  
+  <p class="link">
+    Learn more &#62;
+  </p>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5e.
+<style>
+    p{
+        font-family: arial;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .title{
+        color: rgb(194, 127, 2);
+        margin-bottom: 8px;
+    }
+
+    .product-name{
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: -1;
+    }
+
+    .description{
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 11px;
+    }
+
+    .price{
+        margin-bottom: 20px;
+    }
+
+    .buy{
+        background-color: blue;
+        color: white;
+        border: none;
+        padding-top: 8px;
+        padding-right: 12px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+</style>
+
+<p class="title">
+    New
+</p>
+
+<p class="product-name">
+    MacBook Pro
+</p>
+
+<p class="description">
+    Supercharged for pros.
+</p>
+
+<p class="price">
+    From $1999
+</p>
+
+<p>
+    <span class="buy">Buy</span>
+</p>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5f.
